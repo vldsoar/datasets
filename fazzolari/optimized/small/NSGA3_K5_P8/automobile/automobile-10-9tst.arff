@@ -1,0 +1,25 @@
+@relation automobile
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Fuel-type {diesel,gas}
+@attribute Height numeric
+@attribute Stroke numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+mazda,gas,53.7,3.39,10595,1
+nissan,gas,54.5,3.29,7299,1
+nissan,diesel,54.5,3.47,7099,1
+mazda,gas,54.1,3.15,6095,1
+honda,gas,53.3,3.58,9095,0
+peugot,diesel,56.7,3.52,13200,0
+toyota,gas,52.8,3.03,7198,0
+subaru,gas,54.9,2.64,8013,0
+toyota,gas,52,3.5,8449,2
+subaru,gas,55.7,2.64,7603,2
+volkswagen,gas,55.7,3.4,8195,2
+volvo,gas,57.5,3.15,16515,-1
+volvo,gas,57.5,3.15,18950,-1
+saab,gas,56.1,3.07,11850,3
+nissan,gas,49.7,3.27,17199,3

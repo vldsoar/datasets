@@ -1,0 +1,74 @@
+@relation crx
+
+@attribute A6 {w,q,m,r,cc,k,c,d,x,i,e,aa,ff,j}
+@attribute A9 {t,f}
+@attribute A10 {t,f}
+@attribute A14 numeric
+@attribute Class {positive,negative}
+
+@data
+k,f,f,0,positive
+x,t,t,300,positive
+m,t,t,200,positive
+cc,t,f,980,negative
+c,f,f,160,negative
+m,t,f,288,negative
+q,t,t,0,negative
+e,t,t,152,negative
+cc,t,t,140,positive
+q,t,t,0,positive
+c,t,t,100,positive
+q,t,t,0,positive
+c,t,t,0,positive
+m,t,t,93,positive
+c,t,t,60,positive
+e,t,t,0,positive
+i,t,t,195,positive
+w,t,t,50,positive
+ff,t,t,0,positive
+c,t,t,80,positive
+e,t,t,22,positive
+k,t,f,80,positive
+i,t,f,0,positive
+w,t,t,120,positive
+q,f,f,200,positive
+m,t,f,200,negative
+c,f,f,80,negative
+j,f,f,160,negative
+w,f,t,120,negative
+aa,f,f,200,negative
+k,t,t,380,positive
+i,f,f,640,negative
+d,f,f,0,negative
+d,f,f,168,negative
+k,f,f,100,negative
+e,f,t,320,negative
+w,f,f,280,negative
+c,f,f,160,negative
+aa,f,f,120,negative
+m,f,f,0,negative
+e,f,f,600,negative
+w,f,f,180,negative
+ff,f,f,200,negative
+c,f,f,160,negative
+c,f,f,360,negative
+i,f,f,360,negative
+i,f,f,200,negative
+w,t,t,80,positive
+c,t,f,0,positive
+x,t,t,480,positive
+w,t,f,163,negative
+w,t,t,330,positive
+c,t,f,422,positive
+x,t,f,360,positive
+c,t,t,0,positive
+c,t,t,0,positive
+k,t,f,280,positive
+c,t,f,349,positive
+aa,t,f,120,negative
+w,f,f,220,negative
+aa,f,f,100,negative
+aa,f,f,0,negative
+c,f,t,80,negative
+i,f,f,260,negative
+aa,f,f,280,negative

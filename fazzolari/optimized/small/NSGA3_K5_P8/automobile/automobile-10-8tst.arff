@@ -1,0 +1,25 @@
+@relation automobile
+
+@attribute Normalized-losses numeric
+@attribute Height numeric
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+107,51,four,1
+113,54.1,four,1
+158,55.9,five,1
+125,51.6,four,1
+101,52.6,four,1
+145,50.2,four,3
+91,53,four,0
+102,52.5,four,0
+115,55.5,four,0
+102,52.5,four,0
+91,53,four,0
+134,53,four,2
+94,55.7,four,2
+83,53.7,four,2
+65,54.9,four,-1
+95,55.5,six,-1
+103,56.2,four,-2

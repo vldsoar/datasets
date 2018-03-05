@@ -1,0 +1,76 @@
+@relation crx
+
+@attribute A2 numeric
+@attribute A6 {w,q,m,r,cc,k,c,d,x,i,e,aa,ff,j}
+@attribute A9 {t,f}
+@attribute A14 numeric
+@attribute Class {positive,negative}
+
+@data
+2783,w,t,100,positive
+3208,m,t,360,positive
+4583,q,t,0,positive
+5658,d,t,0,positive
+4208,w,t,500,positive
+495,i,t,0,positive
+2725,cc,t,583,positive
+2775,cc,t,260,positive
+3958,w,t,70,positive
+2317,cc,t,0,positive
+4325,q,t,80,positive
+3167,d,t,250,positive
+2042,q,t,0,positive
+2667,cc,t,120,positive
+34,aa,t,240,negative
+2842,w,t,280,positive
+6058,q,t,21,positive
+27,w,t,260,positive
+2242,q,t,129,positive
+4875,c,t,181,positive
+3517,k,t,150,positive
+225,x,f,164,positive
+2517,cc,t,0,positive
+20,c,f,136,negative
+5217,ff,f,0,negative
+1858,d,f,120,negative
+1608,ff,f,160,negative
+1592,q,f,120,negative
+1625,aa,f,60,negative
+3483,i,f,160,negative
+3908,c,f,480,negative
+3675,ff,f,160,negative
+2275,aa,f,220,negative
+2625,w,f,100,negative
+4317,i,f,141,negative
+2617,k,f,0,negative
+35,i,f,210,negative
+2042,q,f,108,negative
+2525,aa,f,200,negative
+2308,k,f,0,negative
+3617,w,f,320,negative
+23,j,f,200,negative
+3042,w,f,0,negative
+2108,i,f,140,negative
+2067,c,f,0,negative
+2817,k,f,216,negative
+245,aa,f,120,negative
+3925,m,t,240,positive
+4433,c,t,0,positive
+25,cc,t,400,positive
+2675,x,t,0,positive
+3575,aa,t,0,positive
+2808,e,t,0,positive
+4608,c,t,396,positive
+2342,c,t,180,negative
+2267,i,f,400,negative
+2217,i,f,160,negative
+1883,q,f,160,negative
+3875,ff,f,76,negative
+3242,k,f,120,negative
+3417,i,f,232,negative
+2408,aa,f,0,negative
+235,w,f,160,negative
+3208,cc,f,120,negative
+3033,d,f,252,negative
+2108,e,f,260,negative
+2267,c,f,200,negative

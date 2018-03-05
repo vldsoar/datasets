@@ -1,0 +1,20 @@
+@relation automobile
+
+@attribute Normalized-losses numeric
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+148,fwd,1
+168,rwd,1
+118,fwd,1
+104,fwd,1
+85,4wd,0
+91,fwd,0
+110,fwd,0
+108,fwd,0
+102,4wd,0
+161,fwd,2
+134,rwd,2
+137,fwd,-1
+93,rwd,-1

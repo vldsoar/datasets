@@ -1,0 +1,19 @@
+@relation automobile
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Compression-ratio numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+mitsubishi,7.5,1
+nissan,9.4,1
+nissan,9.4,1
+subaru,9,0
+peugot,8.4,0
+jaguar,8.1,0
+honda,9.6,2
+toyota,9.3,2
+audi,10,2
+mercedes-benz,21.5,-1
+toyota,9.2,-1
+toyota,9.3,3

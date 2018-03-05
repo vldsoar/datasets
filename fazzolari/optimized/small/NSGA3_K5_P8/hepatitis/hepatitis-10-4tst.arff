@@ -1,0 +1,13 @@
+@relation hepatitis
+
+@attribute Fatigue numeric
+@attribute Class {1,2}
+
+@data
+2,2
+1,2
+1,2
+1,2
+1,2
+1,2
+1,1

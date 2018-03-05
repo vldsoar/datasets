@@ -1,0 +1,13 @@
+@relation hepatitis
+
+@attribute Age numeric
+@attribute Histology numeric
+@attribute Class {1,2}
+
+@data
+41,1,2
+31,1,2
+61,1,2
+47,2,1
+42,2,1
+20,2,2

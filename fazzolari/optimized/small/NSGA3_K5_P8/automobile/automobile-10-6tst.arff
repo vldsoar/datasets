@@ -1,0 +1,22 @@
+@relation automobile
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Num-of-doors {four,two}
+@attribute Peak-rpm numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+nissan,two,5200,1
+plymouth,four,5500,1
+mazda,two,4800,1
+dodge,four,5500,1
+mercedes-benz,two,4750,3
+toyota,four,4800,0
+nissan,four,5200,0
+mercedes-benz,two,4350,0
+saab,four,5500,2
+chevrolet,two,5100,2
+toyota,four,4200,-1
+volkswagen,two,5500,3
+volvo,four,5400,-2
+toyota,two,4800,2

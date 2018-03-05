@@ -1,0 +1,27 @@
+@relation automobile
+
+@attribute Normalized-losses numeric
+@attribute Curb-weight numeric
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+101,1837,1bbl,1
+122,1971,2bbl,1
+154,2191,2bbl,1
+161,2145,spdi,1
+98,1874,2bbl,1
+150,2808,mpfi,3
+161,3020,mpfi,0
+91,2275,idi,0
+91,3110,2bbl,0
+118,2670,mpfi,0
+77,2280,2bbl,0
+134,2714,mpfi,2
+192,2395,mpfi,2
+104,2758,mpfi,2
+95,3062,mpfi,-1
+65,2414,mpfi,-1
+122,1938,2bbl,1
+150,2707,mpfi,3
+95,2952,mpfi,-1

@@ -1,0 +1,41 @@
+@relation ecoli
+
+@attribute Gvh numeric
+@attribute Alm1 numeric
+@attribute Site {cp,im,imS,imL,imU,om,omL,pp}
+
+@data
+4,37,cp
+5,32,cp
+16,11,cp
+46,22,cp
+35,55,cp
+3,3,cp
+36,28,cp
+43,52,cp
+48,44,cp
+41,38,cp
+26,16,cp
+34,3,cp
+49,38,cp
+43,3,cp
+37,18,cp
+44,71,im
+56,78,im
+58,78,im
+53,66,im
+54,79,im
+5,77,im
+5,72,im
+39,82,imL
+33,77,imU
+29,75,imU
+37,64,imU
+51,54,om
+76,59,om
+49,56,omL
+81,42,pp
+86,54,pp
+8,57,pp
+39,4,pp
+59,49,pp

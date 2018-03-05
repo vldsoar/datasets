@@ -1,0 +1,16 @@
+@relation hepatitis
+
+@attribute ProTime numeric
+@attribute Class {1,2}
+
+@data
+85,2
+54,2
+39,2
+85,2
+70,2
+52,2
+41,2
+31,1
+31,1
+62,2

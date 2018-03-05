@@ -1,0 +1,37 @@
+@relation haberman
+
+@attribute Age numeric
+@attribute Survival {positive,negative}
+
+@data
+53,negative
+47,negative
+58,negative
+53,positive
+62,positive
+62,negative
+55,negative
+53,negative
+62,negative
+30,negative
+61,negative
+30,negative
+36,negative
+42,negative
+58,negative
+41,negative
+51,positive
+59,positive
+49,positive
+57,negative
+53,positive
+38,negative
+55,positive
+59,negative
+64,negative
+39,negative
+54,negative
+70,negative
+75,negative
+53,positive
+38,negative
