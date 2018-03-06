@@ -1,0 +1,76 @@
+@relation crx
+
+@attribute A5 {g,p,gg}
+@attribute A6 {w,q,m,r,cc,k,c,d,x,i,e,aa,ff,j}
+@attribute A8 numeric
+@attribute A9 {t,f}
+@attribute A10 {t,f}
+@attribute Class {positive,negative}
+
+@data
+p,k,396,t,f,positive
+g,m,96,t,t,positive
+g,d,665,t,f,positive
+g,c,835,t,f,positive
+g,q,5,t,t,positive
+g,x,796,t,t,positive
+g,w,2,t,t,positive
+g,c,25,t,f,negative
+p,c,946,t,f,negative
+g,q,1,t,t,negative
+g,cc,335,t,t,positive
+g,aa,15,t,t,positive
+g,q,6,t,f,positive
+g,m,425,t,t,positive
+g,cc,625,t,t,positive
+g,q,1335,t,f,positive
+g,aa,1415,t,f,positive
+g,q,121,t,t,positive
+g,i,5,t,t,positive
+g,q,165,t,t,positive
+p,w,3085,t,t,positive
+p,cc,525,t,t,positive
+g,q,2085,t,t,positive
+g,cc,14,t,t,positive
+g,e,20,t,t,positive
+g,x,46,t,t,positive
+p,q,165,f,f,negative
+g,w,29,f,t,negative
+g,m,5,f,f,negative
+g,w,165,f,t,negative
+g,ff,65,f,t,negative
+p,c,2335,f,f,negative
+gg,ff,0,f,f,positive
+p,x,1,f,f,negative
+g,d,1,f,f,negative
+p,m,15,f,f,negative
+g,aa,1,f,t,negative
+g,m,13875,f,t,negative
+g,d,125,f,f,negative
+g,i,4,f,f,negative
+g,i,21,f,f,negative
+p,c,1,f,t,negative
+g,i,0,f,f,negative
+p,k,125,f,f,negative
+g,c,15,f,f,negative
+g,c,2415,f,f,negative
+p,ff,0,f,t,negative
+p,m,125,f,f,negative
+p,c,0,f,f,negative
+g,k,75,f,f,negative
+p,k,415,f,t,negative
+g,aa,175,f,t,negative
+g,c,1625,t,t,positive
+g,j,0,t,f,positive
+g,c,175,t,t,positive
+g,q,175,t,t,negative
+g,q,2415,t,f,negative
+p,x,75,t,t,positive
+g,q,1585,t,f,positive
+g,q,1275,t,f,positive
+p,d,1085,t,t,positive
+g,w,29,f,t,negative
+g,c,2085,f,f,negative
+g,w,25,f,t,negative
+g,aa,79,f,f,negative
+g,c,165,f,f,negative

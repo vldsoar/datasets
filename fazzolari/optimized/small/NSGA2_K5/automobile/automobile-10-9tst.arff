@@ -1,0 +1,26 @@
+@relation automobile
+
+@attribute Wheel-base numeric
+@attribute Width numeric
+@attribute Curb-weight numeric
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Highway-mpg numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+98.8,66.5,2385,four,32,10595,1
+94.5,63.8,1951,four,37,7299,1
+94.5,63.8,2017,four,50,7099,1
+93.1,64.2,1900,four,38,6095,1
+96.5,65.2,2289,four,33,9095,0
+107.9,68.4,3197,four,33,13200,0
+95.7,64.4,2109,four,37,7198,0
+96.9,65.4,2420,four,29,8013,0
+98.4,65.6,2540,four,30,8449,2
+93.3,63.8,2240,four,31,7603,2
+97.3,65.5,2212,four,34,8195,2
+104.3,67.2,3042,four,28,16515,-1
+104.3,67.2,3157,four,22,18950,-1
+99.1,66.5,2658,four,28,11850,3
+91.3,67.9,3071,six,25,17199,3

@@ -1,0 +1,20 @@
+@relation hepatitis
+
+@attribute Sex numeric
+@attribute Antivirals numeric
+@attribute Sgot numeric
+@attribute AlbuMin numeric
+@attribute Histology numeric
+@attribute Class {1,2}
+
+@data
+1,1,30,4.4,1,2
+1,1,249,3.7,1,2
+1,2,98,4.1,1,2
+1,2,44,4.2,1,2
+1,2,145,4.4,1,2
+1,1,38,3.9,1,2
+1,2,44,3.1,1,2
+1,2,157,2.7,2,1
+1,2,80,3,2,1
+1,2,81,3.9,2,2

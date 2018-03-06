@@ -1,0 +1,27 @@
+@relation automobile
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Compression-ratio numeric
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+toyota,ohc,9,31,1
+nissan,ohc,9.4,31,1
+mazda,ohc,9,31,1
+toyota,ohc,9,31,1
+plymouth,ohc,7.6,24,1
+mitsubishi,ohc,7.5,23,3
+subaru,ohcf,9,24,0
+honda,ohc,9.2,30,0
+honda,ohc,9,27,0
+nissan,ohcv,9,19,0
+toyota,ohc,9,27,0
+honda,ohc,9.2,31,2
+volkswagen,ohc,9,27,2
+subaru,ohcf,8.7,26,2
+plymouth,ohc,8.5,24,-1
+volvo,ohc,23,26,-1
+toyota,ohc,9,28,0
+volvo,ohc,9.5,23,-2

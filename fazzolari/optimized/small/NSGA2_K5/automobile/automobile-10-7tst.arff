@@ -1,0 +1,22 @@
+@relation automobile
+
+@attribute Normalized-losses numeric
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Length numeric
+@attribute Curb-weight numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+148,sedan,157.3,1989,1
+168,sedan,168.7,2265,1
+118,hatchback,157.3,1876,1
+104,hatchback,159.1,1890,1
+85,wagon,173.6,2650,0
+91,sedan,166.3,2275,0
+110,sedan,163.4,2010,0
+108,wagon,184.6,3296,0
+102,sedan,172,2510,0
+161,hatchback,157.3,1944,2
+134,hardtop,176.2,2536,2
+137,sedan,172.4,2403,-1
+93,wagon,190.9,3750,-1

@@ -1,0 +1,37 @@
+@relation haberman
+
+@attribute Year numeric
+@attribute Survival {positive,negative}
+
+@data
+63,negative
+62,negative
+66,negative
+58,negative
+68,negative
+62,negative
+63,negative
+65,positive
+65,negative
+64,negative
+59,positive
+66,negative
+58,negative
+63,negative
+60,negative
+59,positive
+67,negative
+58,positive
+69,positive
+67,negative
+64,positive
+64,negative
+63,negative
+59,negative
+64,positive
+62,negative
+58,positive
+68,negative
+63,negative
+66,negative
+64,negative

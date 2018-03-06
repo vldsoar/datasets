@@ -1,0 +1,25 @@
+@relation automobile
+
+@attribute Engine-location {front,rear}
+@attribute Wheel-base numeric
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+front,93.7,ohc,1
+front,94.5,ohc,1
+front,93.7,ohc,1
+front,102.9,dohc,3
+front,96.5,ohc,0
+front,97.2,ohc,0
+front,96.5,ohc,0
+front,97.2,ohcf,0
+front,98.8,ohc,0
+front,99.1,ohc,2
+front,97.3,ohc,2
+front,97.3,ohc,2
+front,109.1,ohc,-1
+front,104.3,ohc,-1
+front,93.7,ohc,1
+front,93.7,ohc,1
+front,101.2,ohc,0

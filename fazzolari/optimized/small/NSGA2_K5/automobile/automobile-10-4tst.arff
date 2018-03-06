@@ -1,0 +1,28 @@
+@relation automobile
+
+@attribute Normalized-losses numeric
+@attribute Fuel-type {diesel,gas}
+@attribute Wheel-base numeric
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+101,gas,93.7,1bbl,1
+122,gas,94.5,2bbl,1
+154,gas,93.7,2bbl,1
+161,gas,93,spdi,1
+98,gas,94.5,2bbl,1
+150,gas,99.1,mpfi,3
+161,gas,107.9,mpfi,0
+91,diesel,95.7,idi,0
+91,gas,95.7,2bbl,0
+118,gas,104.9,mpfi,0
+77,gas,95.7,2bbl,0
+134,gas,98.4,mpfi,2
+192,gas,101.2,mpfi,2
+104,gas,99.1,mpfi,2
+95,gas,109.1,mpfi,-1
+65,gas,102.4,mpfi,-1
+122,gas,94.5,2bbl,1
+150,gas,99.1,mpfi,3
+95,gas,109.1,mpfi,-1

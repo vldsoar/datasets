@@ -1,0 +1,28 @@
+@relation automobile
+
+@attribute Normalized-losses numeric
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Height numeric
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute Bore numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+107,sedan,51,ohc,four,3.15,1
+113,sedan,54.1,ohc,four,3.03,1
+158,sedan,55.9,ohc,five,3.13,1
+125,sedan,51.6,ohc,four,3.35,1
+101,hatchback,52.6,ohc,four,2.91,1
+145,hatchback,50.2,ohc,four,3.6,3
+91,sedan,53,ohc,four,3.19,0
+102,sedan,52.5,ohcf,four,3.62,0
+115,sedan,55.5,ohc,four,3.39,0
+102,sedan,52.5,ohcf,four,3.62,0
+91,sedan,53,ohc,four,3.19,0
+134,convertible,53,ohc,four,3.62,2
+94,sedan,55.7,ohc,four,3.01,2
+83,hatchback,53.7,ohcf,four,3.62,2
+65,sedan,54.9,ohc,four,3.27,-1
+95,sedan,55.5,ohcv,six,3.58,-1
+103,sedan,56.2,ohc,four,3.62,-2

@@ -1,0 +1,27 @@
+@relation automobile
+
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Height numeric
+@attribute Curb-weight numeric
+@attribute Compression-ratio numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+hatchback,50.6,1967,9.4,1
+wagon,53.5,2024,9.4,1
+hatchback,52.6,1940,9.2,1
+hatchback,52.6,2300,9.4,1
+sedan,55.7,2844,8.5,1
+hatchback,49.4,2328,8.5,3
+sedan,56.7,3075,8.4,0
+wagon,53,2290,9,0
+sedan,56.7,3252,21,0
+sedan,54.1,2465,9,0
+sedan,54.3,2765,9,0
+hatchback,50.8,2004,9.4,2
+sedan,54.3,2824,8,2
+sedan,55.7,2300,10,2
+sedan,54.9,2414,8.7,-1
+sedan,54.5,1918,9.4,1
+hatchback,50.2,2778,9.5,3
+sedan,56.5,3515,21.5,-1

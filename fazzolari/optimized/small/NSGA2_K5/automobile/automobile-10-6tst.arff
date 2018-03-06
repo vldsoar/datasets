@@ -1,0 +1,23 @@
+@relation automobile
+
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Length numeric
+@attribute Engine-type {dohc,dohcv,l,ohc,ohcf,ohcv,rotor}
+@attribute Fuel-system {1bbl,2bbl,4bbl,idi,mfi,mpfi,spdi,spfi}
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+nissan,178.5,ohcv,mpfi,1
+plymouth,157.3,ohc,2bbl,1
+mazda,177.8,ohc,2bbl,1
+dodge,157.3,ohc,2bbl,1
+mercedes-benz,180.3,ohcv,mpfi,3
+toyota,166.3,ohc,2bbl,0
+nissan,173.4,ohc,2bbl,0
+mercedes-benz,187.5,ohc,idi,0
+saab,186.6,dohc,mpfi,2
+chevrolet,141.1,l,2bbl,2
+toyota,175.6,ohc,mpfi,-1
+volkswagen,165.7,ohc,mpfi,3
+volvo,188.8,ohc,mpfi,-2
+toyota,176.2,ohc,mpfi,2

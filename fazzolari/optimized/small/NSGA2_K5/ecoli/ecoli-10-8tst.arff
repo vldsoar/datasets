@@ -1,0 +1,40 @@
+@relation ecoli
+
+@attribute Mcg numeric
+@attribute Aac numeric
+@attribute Site {cp,im,imS,imL,imU,om,omL,pp}
+
+@data
+67,36,cp
+2,46,cp
+44,55,cp
+4,38,cp
+32,35,cp
+54,28,cp
+36,48,cp
+25,41,cp
+43,33,cp
+35,46,cp
+51,53,cp
+25,39,cp
+61,49,cp
+39,38,cp
+44,43,im
+29,71,im
+4,65,im
+33,45,im
+71,71,im
+6,45,im
+39,52,im
+61,0,im
+76,5,imU
+77,51,imU
+58,59,imU
+86,63,imU
+77,88,om
+68,73,om
+73,58,pp
+67,51,pp
+63,49,pp
+68,43,pp
+66,41,pp

@@ -1,0 +1,14 @@
+@relation hepatitis
+
+@attribute Sex numeric
+@attribute LiverFirm numeric
+@attribute ProTime numeric
+@attribute Class {1,2}
+
+@data
+1,2,85,2
+1,2,47,2
+1,2,52,2
+2,2,74,2
+1,2,60,2
+2,1,76,2
