@@ -1,0 +1,23 @@
+@relation automobile
+
+@attribute Num-of-doors {four,two}
+@attribute Body-style {hardtop,wagon,sedan,hatchback,convertible}
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+two,hatchback,10595,1
+two,sedan,7299,1
+two,sedan,7099,1
+two,hatchback,6095,1
+two,hatchback,9095,0
+four,sedan,13200,0
+four,hatchback,7198,0
+four,wagon,8013,0
+two,hardtop,8449,2
+two,hatchback,7603,2
+four,sedan,8195,2
+four,wagon,16515,-1
+four,wagon,18950,-1
+two,hatchback,11850,3
+two,hatchback,17199,3

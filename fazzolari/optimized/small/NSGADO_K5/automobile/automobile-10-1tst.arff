@@ -1,0 +1,25 @@
+@relation automobile
+
+@attribute Normalized-losses numeric
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Num-of-cylinders {eight,five,four,six,three,twelve,two}
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+168,rwd,four,29,1
+113,fwd,four,31,1
+87,fwd,four,35,1
+125,fwd,four,25,1
+194,rwd,six,17,3
+128,fwd,six,17,0
+161,rwd,four,28,0
+81,fwd,four,38,0
+115,fwd,four,26,0
+192,rwd,four,23,0
+168,fwd,four,31,2
+94,fwd,four,27,2
+161,fwd,four,37,2
+110,fwd,four,24,-1
+65,fwd,four,27,-1
+161,rwd,four,18,0

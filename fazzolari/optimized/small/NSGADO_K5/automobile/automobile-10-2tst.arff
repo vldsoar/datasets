@@ -1,0 +1,22 @@
+@relation automobile
+
+@attribute Normalized-losses numeric
+@attribute Make {alfa-romero,audi,bmw,chevrolet,dodge,honda,isuzu,jaguar,mazda,mercedes-benz,mercury,mitsubishi,nissan,peugot,plymouth,porsche,renault,saab,subaru,toyota,volkswagen,volvo}
+@attribute Height numeric
+@attribute Bore numeric
+@attribute Price numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+125,mitsubishi,51.6,3.17,9279,1
+128,nissan,54.5,3.15,5499,1
+103,nissan,53.5,3.15,7999,1
+89,subaru,53,3.62,10198,0
+161,peugot,56.7,3.46,16630,0
+145,jaguar,52.8,3.63,32250,0
+137,honda,50.8,2.91,6479,2
+134,toyota,52,3.62,11199,2
+164,audi,54.3,3.19,13950,2
+93,mercedes-benz,56.3,3.58,31600,-1
+90,toyota,54.1,3.27,15690,-1
+197,toyota,52,3.27,16558,3

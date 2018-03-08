@@ -1,0 +1,26 @@
+@relation automobile
+
+@attribute Normalized-losses numeric
+@attribute Fuel-type {diesel,gas}
+@attribute Curb-weight numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+148,gas,1967,1
+103,gas,2024,1
+101,gas,1940,1
+168,gas,2300,1
+158,gas,2844,1
+153,gas,2328,3
+161,gas,3075,0
+89,gas,2290,0
+161,diesel,3252,0
+85,gas,2465,0
+188,gas,2765,0
+161,gas,2004,2
+164,gas,2824,2
+94,gas,2300,2
+65,gas,2414,-1
+128,gas,1918,1
+186,gas,2778,3
+93,diesel,3515,-1

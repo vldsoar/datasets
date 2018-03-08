@@ -1,0 +1,17 @@
+@relation hepatitis
+
+@attribute Age numeric
+@attribute Sex numeric
+@attribute Class {1,2}
+
+@data
+39,1,2
+32,1,2
+27,1,2
+36,1,2
+44,1,2
+30,1,2
+36,1,2
+48,1,1
+33,1,1
+50,1,2

@@ -1,0 +1,29 @@
+@relation automobile
+
+@attribute Normalized-losses numeric
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Engine-location {front,rear}
+@attribute Bore numeric
+@attribute City-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+101,fwd,front,2.91,38,1
+122,fwd,front,3.15,31,1
+154,fwd,front,2.97,31,1
+161,fwd,front,3.03,24,1
+98,fwd,front,3.03,38,1
+150,fwd,front,3.54,19,3
+161,rwd,front,3.46,19,0
+91,fwd,front,3.27,38,0
+91,4wd,front,3.05,27,0
+118,rwd,front,3.76,19,0
+77,fwd,front,3.05,31,0
+134,rwd,front,3.62,24,2
+192,rwd,front,3.5,23,2
+104,fwd,front,3.54,21,2
+95,rwd,front,3.78,19,-1
+65,fwd,front,3.31,27,-1
+122,fwd,front,3.15,31,1
+150,fwd,front,2.54,21,3
+95,rwd,front,3.78,23,-1

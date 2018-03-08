@@ -1,0 +1,14 @@
+@relation hepatitis
+
+@attribute Fatigue numeric
+@attribute Ascites numeric
+@attribute Class {1,2}
+
+@data
+1,2,2
+2,2,2
+1,2,2
+1,2,2
+1,2,2
+2,2,2
+2,2,2

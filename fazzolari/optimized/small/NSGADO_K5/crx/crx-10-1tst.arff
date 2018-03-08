@@ -1,0 +1,75 @@
+@relation crx
+
+@attribute A5 {g,p,gg}
+@attribute A9 {t,f}
+@attribute A10 {t,f}
+@attribute A13 {g,s,p}
+@attribute Class {positive,negative}
+
+@data
+g,t,t,g,positive
+g,t,f,g,positive
+g,t,t,g,positive
+g,t,t,g,positive
+g,t,f,g,positive
+g,t,t,g,positive
+g,t,t,g,positive
+p,t,f,g,negative
+g,t,t,g,positive
+g,t,t,g,positive
+p,t,t,g,positive
+g,t,f,g,positive
+g,t,f,g,positive
+g,t,f,g,positive
+g,t,f,g,positive
+g,t,t,g,positive
+g,t,t,g,positive
+g,t,t,g,positive
+g,t,f,g,positive
+g,t,f,g,positive
+g,t,f,s,positive
+g,t,t,g,positive
+g,f,f,g,negative
+g,f,f,g,negative
+g,f,f,g,negative
+p,f,t,g,negative
+g,f,t,g,negative
+g,f,t,g,negative
+g,f,t,g,negative
+p,f,f,g,negative
+g,f,f,g,negative
+g,f,f,g,negative
+g,f,f,g,negative
+g,f,f,g,negative
+p,f,f,s,negative
+p,f,f,g,negative
+g,f,f,g,negative
+g,f,f,g,negative
+g,f,f,s,negative
+p,f,f,g,negative
+p,f,f,g,negative
+p,f,f,g,negative
+g,f,f,g,negative
+g,f,f,g,negative
+g,t,f,g,positive
+p,t,f,g,positive
+p,t,t,g,positive
+g,t,f,g,negative
+g,t,f,g,negative
+g,t,f,g,negative
+g,t,f,g,negative
+g,t,f,g,negative
+p,t,f,g,negative
+p,t,f,s,negative
+g,t,f,g,positive
+g,t,t,g,positive
+g,t,t,g,positive
+g,t,t,g,positive
+g,t,f,g,positive
+g,t,t,g,positive
+g,f,f,g,negative
+g,f,f,g,negative
+g,f,t,g,negative
+p,f,f,g,negative
+g,f,f,g,negative
+g,f,f,g,negative

@@ -1,0 +1,13 @@
+@relation hepatitis
+
+@attribute Anorexia numeric
+@attribute ProTime numeric
+@attribute Class {1,2}
+
+@data
+2,40,1
+2,100,2
+2,74,2
+2,90,2
+2,66,2
+2,31,1

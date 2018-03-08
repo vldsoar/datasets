@@ -1,0 +1,28 @@
+@relation automobile
+
+@attribute Normalized-losses numeric
+@attribute Drive-wheels {4wd,fwd,rwd}
+@attribute Width numeric
+@attribute Height numeric
+@attribute Compression-ratio numeric
+@attribute Highway-mpg numeric
+@attribute Symboling {-2,-1,0,1,2,3}
+
+@data
+107,fwd,66,51,9.1,31,1
+113,fwd,64.2,54.1,9,38,1
+158,fwd,71.4,55.9,8.3,20,1
+125,fwd,65.4,51.6,8.5,32,1
+101,fwd,64,52.6,9.2,34,1
+145,fwd,66.3,50.2,7,24,3
+91,fwd,64.4,53,9,37,0
+102,fwd,65.4,52.5,9.5,33,0
+115,fwd,66.5,55.5,8.6,32,0
+102,fwd,65.4,52.5,9.5,37,0
+91,fwd,64.4,53,9,47,0
+134,rwd,65.6,53,9.3,30,2
+94,fwd,65.5,55.7,23,42,2
+83,fwd,63.4,53.7,9,36,2
+65,fwd,66.5,54.9,22.5,33,-1
+95,rwd,68.9,55.5,8.8,23,-1
+103,rwd,67.2,56.2,7.5,22,-2
